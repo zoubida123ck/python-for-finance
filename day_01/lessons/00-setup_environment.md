@@ -62,8 +62,11 @@ git config --global user.email "your_email"
 - Now you have your own copie of the project which is by the way linked by the original project.
 
 *Note programmers call a project in github repository so for now we will use repo term as an alias for repository which is a project stored in github website*
-
-3. clone the repo:
+3. Config github account to use ssh: 
+    - Open your terminal and run `ssh-keygen` following the instructions.
+    - Copy the generated ssh public key (`cat /path/to/public/key.pub` path is outputed by the previous command).
+    - Open your github account and navigate to the `settings` then `SSH and GPG keys`, click on `new SSH key`, give a title (whatever you want) and past the public key in the `key` area, finally click `Add SSH key`.
+4. clone the repo:
 go to your repositories and open the python for finance repo, click on the code button (in green color), copie the link, and open your terminal, then 
 - change the working directory to Desktop by runing:
 ```bash
@@ -78,7 +81,7 @@ git clone https://github.com/<username>/python-for-finance.git
 ```bash
 cd Python_For_Finance
 ```
-4. Now let's installed the requirement packages.
+5. Now let's installed the requirement packages.
 - Create a virtual environment
 ```shell
 python3 -m venv main_env
@@ -91,7 +94,7 @@ source main_env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-5. Congratulation you finish all the steps, and you can start now coding.
+6. Congratulation you finish all the steps, and you can start now coding.
 - run the below command for opening the `jupyter notebook`
 ```
 jupyter notebook .
