@@ -22,8 +22,9 @@ sudo apt -y upgrade
 ```bash
 sudo apt install -y git 
 ```
-- Step 3 — Install pip
+- Step 3 — Install python 3.8 and pip
 ```bash
+sudo apt install -y python3.8
 sudo apt install -y python3-pip
 ```
 - Step 4 — Install git
@@ -36,7 +37,7 @@ sudo apt install -y python3-venv
 ```
 **Windows :**
 - Step 1: Install python
-1. Download `Python` from [here](https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe)
+1. Download `Python` from [here](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe)
 2. Double click the downloaded file.
 3. Check the box for adding python to the path, and click install.
 4. once the install complete click close.
@@ -84,11 +85,12 @@ cd Python_For_Finance
 5. Now let's installed the requirement packages.
 - Create a virtual environment
 ```shell
-python3 -m venv main_env
+python -m venv main_env
 ```
-- Activate the virtual environment
+- Activate the virtual environment (choose the line depend on your system)
 ```shell
-source main_env/bin/activate
+source main_env/bin/activate # ubuntu
+source main_env/Scripts/activate # Windows
 ```
 - Install packages
 ```bash
