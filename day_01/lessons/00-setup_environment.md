@@ -71,7 +71,7 @@ cd Desktop
 *Note if your system is in french you will need to replace Desktop with Bureau*
 - Clone the project (replace <username> with your username without `<>`)
 ```bash
-git clone https://github.com/<username>/Python_For_Finance.git
+git clone https://github.com/<username>/python-for-finance.git
 ```
 - Cd into the project directory:
 ```bash
