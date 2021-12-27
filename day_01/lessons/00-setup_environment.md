@@ -35,15 +35,16 @@ sudo apt install build-essential libssl-dev libffi-dev python3-dev
 sudo apt install -y python3-venv
 ```
 **Windows :**
-- Step 1: Install git bash
+- Step 1: Install python
+1. Download `Python` from [here](https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe)
+2. Double click the downloaded file.
+3. Check the box for adding python to the path, and click install.
+4. once the install complete click close.
+- Step 2: Install git bash
 `git bash` is program similar to the terminal in ubuntu, this program comes with git pre-installed and you can use nerby the same commands in linux.
 1. Download `git bash` from [here](https://git-scm.com/download/win)
 2. Double click the downloaded file.
-3. Proceed with the installation.
-- Step 2: Install python
-1. Download `Python` from [here](https://www.python.org/ftp/python/3.10.1/python-3.10.1-amd64.exe)
-2. Double click the downloaded file.
-3. Proceed with the installation.
+3. Proceed with the installation (next next next next with default settings suggested).
 
 ## Get started
 After installing the requirements, now we can start the work, this instructions are the same for both systems `Windows` and `Ubuntu`.
