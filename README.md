@@ -95,6 +95,8 @@ Each day we will have a mini-courses and assignments for applying what you learn
 
 - [Final Project]()
 
+## Notes during the course:
+[During Course notes](https://docs.google.com/document/d/1YdFoDtSQdWoDbF4K4IUC5xxzMwAJUk0PthXaQ95MlWA/edit?usp=sharing)
 
 ## Grading
 Below the table for the grading system for this module.
